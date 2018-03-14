@@ -8,13 +8,13 @@ return TRUE;
 
 %hook SBIconColorSettings
 -(double) colorAlpha {
-return NULL;
+return 0;
 }
 %end
 
 %hook SBIconColorSettings
 -(double) whiteAlpha {
-return NULL;
+return 0;
 }
 %end
 
